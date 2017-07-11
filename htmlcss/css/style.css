@@ -1,0 +1,114 @@
+
+.body {
+    background-color: whitesmoke;
+
+}
+.wrapper {
+  /*display: table;
+  height: 100%;
+  width: 100%;*/
+  overflow: hidden;
+  margin: 10px;
+
+}
+h1.heading {
+  color: #ffff;
+  font-size: 1.15em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+  color: #505050;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+p.subheading {
+  color: #ffff;
+  font-size: 1.15em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+  color: tan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+pre {
+  display: block;
+  font-family: inherit;
+  white-space: pre;
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.divboxoutside {
+  float: left;
+  position:  relative;
+  width: 20%;
+  padding-bottom: 20%;
+  overflow: hidden;
+  border: 1px solid WhiteSmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+.divboxinside {
+  position: relative;
+  display: inline-block;
+  height: 80%;
+  width: 80%;
+  padding: 5%;
+  text-align: center;
+}
+.divboxinside p {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+}
+.rs {
+  width: auto;
+  height: auto;
+  max-height: 90%;
+  max-width: 100%;
+}
+h5.texto{
+  color: #ffff;
+  font-size: 0.6em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+  color: tan;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+
+@media only screen and (max-width : 650px) and (min-width : 481px){
+  /*table*/
+  .divboxoutside {
+    width: 50%;
+    padding-bottom: 50%;
+    border: 1px solid WhiteSmoke;
+  }
+}
+
+@media only screen and (max-width : 480px){
+  /*small device like smartphone*/
+  .divboxoutside {
+    width: 100%;
+    padding-bottom: 100%;
+    border: 1px solid WhiteSmoke;
+  }
+}
+
+@media only screen and (max-width : 1290px) and (min-width : 1051px){
+  /* desktop*/
+  .divboxoutside {
+    width: 25%;
+    padding-bottom: 25%;
+    border: 1px solid WhiteSmoke;
+  }
+
+}
