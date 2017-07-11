@@ -60,13 +60,7 @@ pre {
   font-size: 0.9em;
   align-items: center;
 }
- /*.divboxinside p {
-  position: absolute;
-  width: 100%;
-  bottom: 2%;
-  left: 0;
-  padding: 5%;
-}*/
+
 .undercaptionimg {
   position: absolute;
   width: 100%;
