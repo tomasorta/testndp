@@ -1,19 +1,15 @@
 
 .body {
     background-color: whitesmoke;
-
 }
 .wrapper {
-  /*display: table;
-  height: 100%;
-  width: 100%;*/
   overflow: hidden;
   margin: 10px;
-
 }
+
 h1.heading {
   color: #ffff;
-  font-size: 1.15em;
+  font-size: 2.19em;
   font-weight: 900;
   margin: 0 0 0.5em;
   color: #505050;
@@ -22,16 +18,15 @@ h1.heading {
   justify-content: center;
   font-family: 'Open Sans', sans-serif;
 }
+
 p.subheading {
-  color: #ffff;
-  font-size: 1.15em;
+  font-size: 1.05em;
   font-weight: 900;
   margin: 0 0 0.5em;
-  color: tan;
+  color: #595050;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
+
 pre {
   display: block;
   font-family: inherit;
@@ -41,32 +36,49 @@ pre {
   align-items: center;
   justify-content: center;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.25em;
+  color: #998A8A;
 }
 
 .divboxoutside {
   float: left;
   position:  relative;
-  width: 20%;
-  padding-bottom: 20%;
+  width: 23%;
+  padding-bottom: 2%;
   overflow: hidden;
   border: 1px solid WhiteSmoke;
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: inherit;
 }
 .divboxinside {
   position: relative;
   display: inline-block;
   height: 80%;
   width: 80%;
-  padding: 5%;
-  text-align: center;
+  padding: 10%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  align-items: center;
 }
-.divboxinside p {
+ /*.divboxinside p {
   position: absolute;
   width: 100%;
-  text-align: center;
+  bottom: 2%;
+  left: 0;
+  padding: 5%;
+}*/
+.undercaptionimg {
+  position: absolute;
+  width: 100%;
   bottom: 0;
   left: 0;
+  padding: 1%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.12em;
+  align-items: center;
+  margin-left: 10px;
 }
+
 .rs {
   width: auto;
   height: auto;
@@ -75,10 +87,10 @@ pre {
 }
 h5.texto{
   color: #ffff;
-  font-size: 0.6em;
+  font-size: 0.8em;
   font-weight: 900;
-  margin: 0 0 0.5em;
-  color: tan;
+  margin: 0 0 0.8em;
+  color: #635B5B;
   display: flex;
   align-items: center;
   justify-content: center
