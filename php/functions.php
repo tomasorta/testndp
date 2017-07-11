@@ -13,8 +13,6 @@ function load_input_file_into_php_array() {
 }
 // convert array to match structure in "correct-output.json"
 function convert_array_to_output_format($input_array) {
-  //var_dump($input_array);
-  //die();
   $output_array=array();
   foreach ($input_array as $k=>$v)
    {
@@ -26,15 +24,13 @@ function convert_array_to_output_format($input_array) {
       }
     }
   }
-
   print "Converting...\n";
-    return $output_array;
+return $output_array;
 }
 
 // save the array to file named "my-output.json"
 function save_php_array_to_output_file($output_array) {
   $dt=json_encode($output_array,JSON_HEX_QUOT | JSON_HEX_TAG | JSON_HEX_AMP);
-
   file_put_contents("data/my-output.json",$dt);
   print "Saving...\n";
 }
